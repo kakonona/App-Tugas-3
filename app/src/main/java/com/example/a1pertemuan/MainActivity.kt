@@ -7,11 +7,13 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import android.widget.TextView
+import android.view.View
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
 
         val etEmail = findViewById<EditText>(R.id.etEmail)
         val etPassword = findViewById<EditText>(R.id.etPassword)
@@ -19,7 +21,11 @@ class MainActivity : AppCompatActivity() {
         val tvSignUp = findViewById<TextView>(R.id.tvSignUp)
         val tvForgotPassword = findViewById<TextView>(R.id.tvForgotPassword)
         val tvTitle = findViewById<TextView>(R.id.tvTitle)
+        val tvSignUp4 = findViewById<TextView>(R.id.tvSignUp4)
+
         tvTitle.text = "Welcome"
+
+        tvSignUp4.visibility = View.GONE   // sembunyi
 
         // Pindah ke SignUpActivity
         tvSignUp.setOnClickListener {
