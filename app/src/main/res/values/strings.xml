@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Pertemuan 1</string>
+    <string name="no_account_sign_up">Dont have an account? Sign Up</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="login_to_continue">Login to Continue</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgot_password3">Forgot Password?</string>
+    <string name="sign_up_to_continue">Sign Up to Continue</string>
+</resources>
